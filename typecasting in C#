@@ -1,0 +1,9 @@
+using System;
+class first{
+    static void Main(string []args){
+        double a = 12.290987;
+        int b = (int)a;
+        Console.WriteLine(b);
+    }
+}
+//output - 12
