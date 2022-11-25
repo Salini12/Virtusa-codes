@@ -1,0 +1,32 @@
+using System;
+namespace userinput{
+class HelloWorld {
+  static void Main(string []args) {
+        int a = Convert.ToInt32(Console.ReadLine());
+        int count = 0,sum =0,rem;
+         int number = a;
+         int real = a;
+        while(a>0){
+            rem = a%10;
+            sum = sum*10+rem;
+            a = a/10;
+            count++;
+        }
+        int po=0;
+        while(number>0){
+            rem = number%10;
+            po =  po+ (int)Math.Pow(rem,count);
+            number = number/10;
+        }
+        if(po==real){
+            Console.WriteLine("I am an Armstrong number");
+        }
+        else
+        {
+            Console.WriteLine("Not an armstrong");
+        }
+  }
+}
+}
+// input - 153
+// output - I am an Armstrong number
