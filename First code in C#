@@ -4,3 +4,4 @@ class first {
     Console.WriteLine("Let's type something");
   }
 }
+//output - Let's type something
