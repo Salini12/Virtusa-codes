@@ -1,0 +1,11 @@
+using System;
+class first {
+  static void Main(string [] args) {
+    int a = 18;
+    if(a>=18){
+        Console.WriteLine("Can vote");
+    }
+    else 
+      Console.WriteLine(" Cannot vote");
+  }
+}
