@@ -1,0 +1,8 @@
+using System;
+class first{
+    static void Main(string []args){
+        int a = 10;
+        Console.WriteLine(Convert.ToString(a));
+    }
+}
+//output - 10
