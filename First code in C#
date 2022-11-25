@@ -1,0 +1,6 @@
+using System;
+class first {
+  static void Main(string [] args) {
+    Console.WriteLine("Let's type something");
+  }
+}
