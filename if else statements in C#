@@ -9,3 +9,4 @@ class first {
       Console.WriteLine(" Cannot vote");
   }
 }
+//output - Can vote
